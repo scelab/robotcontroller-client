@@ -6,7 +6,7 @@ import time
 ip = '192.168.11.x'
 port = 22224
 client = client_io.MyClient()
-client.conect(ip, port)
+client.connect(ip, port)
 
 data = {'msec': 2000, 'map': {'BODY_G': 255}}
 print(data)

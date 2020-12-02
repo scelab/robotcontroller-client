@@ -5,7 +5,7 @@ class MyClient(object):
     def __init__(self):
         self.conn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-    def conect(self, ip, port):
+    def connect(self, ip, port):
         self.conn.connect((ip, port))
 
     def close(self):
